@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{567C1635-351A-4679-8194-FBFFED9CC4F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8AE6A8C2-72D0-424F-89AC-3289C0520E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manatee.Validation", "src\Manatee.Validation\Manatee.Validation.csproj", "{361C718A-FF20-44DE-BBF6-261B2C472411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manatee.Validation.Tests", "tests\Manatee.Validation.Tests\Manatee.Validation.Tests.csproj", "{9EE4CAE9-7A6C-4BC1-882D-9CDA2FEBBB02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{361C718A-FF20-44DE-BBF6-261B2C472411} = {567C1635-351A-4679-8194-FBFFED9CC4F1}
+		{9EE4CAE9-7A6C-4BC1-882D-9CDA2FEBBB02} = {8AE6A8C2-72D0-424F-89AC-3289C0520E70}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{361C718A-FF20-44DE-BBF6-261B2C472411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361C718A-FF20-44DE-BBF6-261B2C472411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361C718A-FF20-44DE-BBF6-261B2C472411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361C718A-FF20-44DE-BBF6-261B2C472411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE4CAE9-7A6C-4BC1-882D-9CDA2FEBBB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE4CAE9-7A6C-4BC1-882D-9CDA2FEBBB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE4CAE9-7A6C-4BC1-882D-9CDA2FEBBB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE4CAE9-7A6C-4BC1-882D-9CDA2FEBBB02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
